@@ -33,6 +33,7 @@ body {
     border-radius: 10px;
 
 }
+
 /* header css */
 
 .header {
@@ -40,7 +41,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #23252C;
-    padding-top:30px;
+    padding-top: 30px;
 }
 
 .img-div {
@@ -88,34 +89,34 @@ li {
 
 .about {
     padding: 10px 20px;
-    border-radius:2px;
+    border-radius: 2px;
 }
 
 .about:hover {
     background-color: #1A1B21;
-    border:1px solid white;
+    border: 1px solid white;
     color: white;
 }
 
 .projects {
     padding: 10px 20px;
-    border-radius:2px
+    border-radius: 2px
 }
 
 .projects:hover {
     background-color: #1A1B21;
-    border:1px solid white;
+    border: 1px solid white;
     color: white;
 }
 
 .contact {
     padding: 10px 20px;
-    border-radius:2px;
+    border-radius: 2px;
 }
 
 .contact:hover {
     background-color: #1A1B21;
-    border:1px solid white;
+    border: 1px solid white;
     color: white;
 }
 
@@ -130,13 +131,15 @@ li {
     max-width: 900px;
     margin: auto;
     font-size: 1.1rem;
-    line-height:1.5;
+    line-height: 1.5;
 }
+
 /* projects css */
 
 .projects-title {
     text-align: center;
 }
+
 .projects-container {
     display: flex;
     justify-content: center;
@@ -151,8 +154,41 @@ li {
 
 .project-img:hover {
     box-shadow: 10px 10px 15px #23252C;
+    transition: box-shadow 0.2s ease;
 }
 
+/* contact css */
+.contact-container {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact-p1 {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.contact-p2 {
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+
+.email-link {
+    padding: 10px 20px;
+    background-color: #23252C;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    box-shadow: 5px 5px 10px #23252C;
+    transition: box-shadow 0.2s ease;
+}
+
+.contact-name {
+    font-size: 1.6rem;
+}
 
 /* footer css */
 .footer-background {
