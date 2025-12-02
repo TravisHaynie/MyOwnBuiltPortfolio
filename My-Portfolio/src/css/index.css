@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    min-width: 500px;
+    background-color: #dfdbd7;
+}
+
+/* universal css */
+.white {
+    color: white;
+}
+
+.background {
+    background: white;
+}
+
+.black {
+    color: black;
+}
+
+.font-weight {
+    font-weight: 600;
+}
+
+.padding {
+    padding: 0 20px;
+}
+
+.project-img {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+/* header css */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #23252C;
+    padding-top:30px;
+}
+
+.img-div {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    align-self: center;
+}
+
+.portfolio-img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.name {
+    margin-bottom: 0;
+    font-size: 2.2rem;
+}
+
+.title {
+    margin-top: 3px;
+    color: #F3BF99;
+}
+
+/* nav links */
+ul>li {
+    list-style: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+}
+
+li {
+    margin: 0 4px;
+}
+
+.nav {
+    display: flex;
+    padding: 0;
+
+}
+
+.about {
+    padding: 10px 20px;
+    border-radius:2px;
+}
+
+.about:hover {
+    background-color: #1A1B21;
+    border:1px solid white;
+    color: white;
+}
+
+.projects {
+    padding: 10px 20px;
+    border-radius:2px
+}
+
+.projects:hover {
+    background-color: #1A1B21;
+    border:1px solid white;
+    color: white;
+}
+
+.contact {
+    padding: 10px 20px;
+    border-radius:2px;
+}
+
+.contact:hover {
+    background-color: #1A1B21;
+    border:1px solid white;
+    color: white;
+}
+
+/* about css */
+.about-me {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.aboutMe-summary {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    font-size: 1.1rem;
+    line-height:1.5;
+}
+/* projects css */
+
+.projects-title {
+    text-align: center;
+}
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 400px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.project-img:hover {
+    box-shadow: 10px 10px 15px #23252C;
+}
+
+
+/* footer css */
+.footer-background {
+    background-color: #23252C;
+}
