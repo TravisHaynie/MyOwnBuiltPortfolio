@@ -1,5 +1,4 @@
 
-
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -25,7 +24,7 @@ body {
 }
 
 .padding {
-    padding: 0 20px;
+    padding: 50px 20px;
 }
 
 .project-img {
@@ -36,12 +35,13 @@ body {
     border-radius: 10px;
 }
 
+
 .width {
-    width: 60px;
+    width: 35px;
 }
 
 .margin {
-    margin: 0 20px;
+    margin: 0 45px;
 }
 
 .contact-link {
@@ -84,7 +84,7 @@ body {
 
 .name {
     margin-bottom: 0;
-    font-size: 2.2rem;
+    font-size: 2.6rem;
 }
 
 .title {
@@ -147,7 +147,7 @@ li {
 /* about css */
 .about-me {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
 }
 
 .aboutMe-summary {
@@ -162,7 +162,14 @@ li {
 
 .projects-title {
     text-align: center;
+    font-size: 1.9rem;
 }
+
+.project-titles {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
 
 .projects-container {
     display: flex;
@@ -176,9 +183,14 @@ li {
     gap: 20px;
 }
 
-.project-img:hover {
+.project-card:hover {
     box-shadow: 10px 10px 15px #23252C;
     transition: box-shadow 0.2s ease;
+    border-radius: 5px;
+}
+
+.padding-wraper {
+    padding: 40px 0
 }
 
 /* contact css */
