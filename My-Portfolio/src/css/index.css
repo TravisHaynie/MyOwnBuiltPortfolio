@@ -31,7 +31,28 @@ body {
     object-fit: cover;
     overflow: hidden;
     border-radius: 10px;
+}
 
+.width {
+    width: 60px;
+}
+
+.margin {
+    margin: 0 20px;
+}
+
+.contact-link {
+    padding: 10px 20px;
+    margin:10px 0;
+    background-color: #23252C;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    box-shadow: 5px 5px 10px #23252C;
+    transition: box-shadow 0.2s ease;
 }
 
 /* header css */
@@ -173,24 +194,23 @@ li {
     font-size: 1.1rem;
 }
 
-.email-link {
-    padding: 10px 20px;
-    background-color: #23252C;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.email-link:hover {
-    box-shadow: 5px 5px 10px #23252C;
-    transition: box-shadow 0.2s ease;
-}
-
 .contact-name {
     font-size: 1.6rem;
 }
 
-/* footer css */
-.footer-background {
-    background-color: #23252C;
+.links-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
 }
+
+/* footer css */
+.footer-container {
+    background-color: #23252C;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+
