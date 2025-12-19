@@ -1,4 +1,4 @@
-import CloudResume from "../../public/Temp-Cloud_resume.pdf";
+import CloudResume from "../../public/cloud-resume.pdf";
 import FrontEndResume from "../../public/Front-End-Resume.pdf";
 
 
