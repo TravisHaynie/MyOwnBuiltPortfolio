@@ -10,7 +10,7 @@ export default function Projects() {
         <div className="projects-container">
           <div className="project-card">
             <h2 className="project-titles">Movie Watchlist</h2>
-            <a href="https://my-portfolio-travis.netlify.app/" target="_blank"><img src={MovieWatchlistImg} className="project-img"alt="movie-watchlist" /></a>
+            <a href="https://moviewatchlistscrimba.netlify.app/" target="_blank"><img src={MovieWatchlistImg} className="project-img"alt="movie-watchlist" /></a>
           </div>
            <div className="project-card">
             <h2 className="project-titles">My React Portfolio</h2>
