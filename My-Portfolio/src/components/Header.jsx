@@ -8,7 +8,7 @@ export default function Header() {
                     <img src={PortfolioImg} className="portfolio-img" alt="picture of a man in a suite smiling" />
                 </div>
                 <h1 className="name">Travis Haynie</h1>
-                <p className="title">Cloud Engineer | Front-End Developer</p>
+                <p className="title">Front-End Developer | Technical Support Analyst</p>
                 <Nav />
             </header>
         </>
