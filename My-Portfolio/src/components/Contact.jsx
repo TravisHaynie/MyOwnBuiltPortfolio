@@ -1,7 +1,5 @@
 import CloudResume from "../../public/cloud-resume.pdf";
-import FrontEndResume from "../../public/Front-End-Resume.pdf";
-
-
+import FrontEndResume from "../../public/TravisHaynie-DEVrainFocus.pdf";
 
 
 export default function Contact() {
