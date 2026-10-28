@@ -20,10 +20,6 @@ export default function Projects() {
             <h2 className="project-titles">Color Scheme Generator</h2>
             <a href="https://dazzling-choux-44e22b.netlify.app/" target="_blank"><img src={GetCOlorSchemes} className="project-img"alt="movie-watchlist" /></a>
           </div>
-           <div className="project-card">
-            <h2 className="project-titles">AWS Project</h2>
-            <a href="https://d2qi4m4eaq4ssx.cloudfront.net/" target="_blank"><img src={MyPortfolio} className="project-img"alt="movie-watchlist" /></a>
-          </div>
         </div>
       </div>
   );
